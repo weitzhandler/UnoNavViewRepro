@@ -1,0 +1,29 @@
+﻿<Page
+  x:Class="UnoNavViewRepro.MainPage"
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:local="using:UnoNavViewRepro"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"    
+  xmlns:winui="using:Windows.UI.Xaml.Controls"
+  mc:Ignorable="d">
+  <Page.DataContext>
+    <local:NavigationViewModel />
+  </Page.DataContext>
+
+  <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <winui:NavigationView 
+      MenuItemsSource="{Binding Items}"
+      SelectedItem="{Binding SelectedItem}">
+      <winui:NavigationView.MenuItemTemplate>
+        <DataTemplate x:DataType="local:NavigationItemViewModel">
+          <winui:NavigationViewItem Content="{x:Bind Title}">
+            <winui:NavigationViewItem.Icon>
+              <winui:SymbolIcon Symbol="{x:Bind Symbol}"/>
+            </winui:NavigationViewItem.Icon>
+          </winui:NavigationViewItem>
+        </DataTemplate>
+      </winui:NavigationView.MenuItemTemplate>
+    </winui:NavigationView>
+  </Grid>
+</Page>
