@@ -13,6 +13,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnoNavViewRepro.UWP", "UnoN
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnoNavViewRepro.Wasm", "UnoNavViewRepro\UnoNavViewRepro.Wasm\UnoNavViewRepro.Wasm.csproj", "{D42AEB30-1582-4DE8-B701-5DDB0D83CF9F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DroidReproSteps", "DroidReproSteps", "{247C3665-08B5-474F-BEB6-7E3E07C7696A}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Desktop\Recording_20200102_0728.mht = ..\..\..\..\Desktop\Recording_20200102_0728.mht
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		UnoNavViewRepro\UnoNavViewRepro.Shared\UnoNavViewRepro.Shared.projitems*{159356ee-4abe-4f83-bfb6-6d19f9fbbb3a}*SharedItemsImports = 4
