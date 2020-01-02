@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnoNavViewRepro.Wasm", "Uno
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DroidReproSteps", "DroidReproSteps", "{247C3665-08B5-474F-BEB6-7E3E07C7696A}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\Desktop\Recording_20200102_0728.mht = ..\..\..\..\Desktop\Recording_20200102_0728.mht
+		Recording_20200102_0728.mht = Recording_20200102_0728.mht
 	EndProjectSection
 EndProject
 Global
